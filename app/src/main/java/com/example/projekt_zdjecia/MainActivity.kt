@@ -16,9 +16,9 @@ class MainActivity : AppCompatActivity() {
         val zdj = findViewById<ImageView>(R.id.imageView)
         val tekst = findViewById<TextView>(R.id.textView)
 
-        val ob1 = "Obrazek 1/3"
-        val ob2 = "Obrazek 2/3"
-        val ob3 = "Obrazek 3/3"
+        val ob1 = "Obrazek 1 z 3"
+        val ob2 = "Obrazek 2 z 3"
+        val ob3 = "Obrazek 3 z 3"
 
         var i=1;
         dalej.setOnClickListener {
