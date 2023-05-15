@@ -16,19 +16,26 @@ class MainActivity : AppCompatActivity() {
         var i=1;
         dalej.setOnClickListener {
             i++;
+            if (i==1)
+                zdj.setImageResource(R.drawable.kwiatya)
+            else if (i==2)
+                zdj.setImageResource(R.drawable.kwiatyb)
+            else if (i==3)
+                zdj.setImageResource(R.drawable.kwiatyc)
+            else if (i==4)
+                i=1
         }
         wstecz.setOnClickListener {
             i--
-        }
-        if (i==1)
-            zdj.setImageResource(R.drawable.kwiatya)
+            if (i==1)
+                zdj.setImageResource(R.drawable.kwiatya)
             else if (i==2)
                 zdj.setImageResource(R.drawable.kwiatyb)
-                else if (i==3)
-                    zdj.setImageResource(R.drawable.kwiatyc)
-                    else if (i==4)
-                        i=1
-                        else
-                            i=3
+            else if (i==3)
+                zdj.setImageResource(R.drawable.kwiatyc)
+            else if (i==0)
+                i=3
+        }
+
     }
 }
