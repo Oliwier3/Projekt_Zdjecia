@@ -45,5 +45,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.196"
-        app:srcCompat="@drawable/kwiaty1" />
+        app:srcCompat="@drawable/kwiatya" />
 </androidx.constraintlayout.widget.ConstraintLayout>
