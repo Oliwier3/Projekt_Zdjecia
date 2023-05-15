@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Projekt_Zdjecia</string>
+    <string name="dalej">Nastepny</string>
+    <string name="wstecz">Poprzedni</string>
+</resources>
