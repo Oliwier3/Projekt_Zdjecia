@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/zielony"
+        android:backgroundTint="@color/zielony"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:text="@string/wstecz"
