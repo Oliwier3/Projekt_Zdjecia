@@ -2,4 +2,7 @@
     <string name="app_name">Projekt_Zdjecia</string>
     <string name="dalej">Nastepny</string>
     <string name="wstecz">Poprzedni</string>
+    <string name="obraz1">Obrazek 1/3</string>
+    <string name="obraz2">Obrazek 2/3</string>
+    <string name="obraz3">Obrazek 3/3</string>
 </resources>
