@@ -16,25 +16,29 @@ class MainActivity : AppCompatActivity() {
         val zdj = findViewById<ImageView>(R.id.imageView)
         val tekst = findViewById<TextView>(R.id.textView)
 
+        val ob1 = "Obrazek 1/3"
+        val ob2 = "Obrazek 2/3"
+        val ob3 = "Obrazek 3/3"
+
         var i=1;
         dalej.setOnClickListener {
             i++;
             if (i==1) {
                 zdj.setImageResource(R.drawable.kwiatya)
-                tekst.text = "Obrazek 1/3"
+                tekst.text = ob1
             }
             else if (i==2){
                 zdj.setImageResource(R.drawable.kwiatyb)
-                tekst.text = "Obrazek 2/3"
+                tekst.text = ob2
             }
             else if (i==3){
                 zdj.setImageResource(R.drawable.kwiatyc)
-                tekst.text = "Obrazek 3/3"
+                tekst.text = ob3
             }
             else if (i==4) {
                 i = 1
                 zdj.setImageResource(R.drawable.kwiatya)
-                tekst.text = "Obrazek 1/3"
+                tekst.text = ob1
             }
         }
 
@@ -42,20 +46,20 @@ class MainActivity : AppCompatActivity() {
             i--
             if (i==1){
                 zdj.setImageResource(R.drawable.kwiatya)
-                tekst.text = "Obrazek 1/3"
+                tekst.text = ob1
             }
             else if (i==2){
                 zdj.setImageResource(R.drawable.kwiatyb)
-                tekst.text = "Obrazek 2/3"
+                tekst.text = ob2
             }
             else if (i==3){
                 zdj.setImageResource(R.drawable.kwiatyc)
-                tekst.text = "Obrazek 3/3"
+                tekst.text = ob3
             }
             else if (i==0) {
                 i = 3
                 zdj.setImageResource(R.drawable.kwiatyc)
-                tekst.text = "Obrazek 3/3"
+                tekst.text = ob1
             }
         }
 
