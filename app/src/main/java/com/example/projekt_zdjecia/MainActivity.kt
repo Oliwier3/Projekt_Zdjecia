@@ -22,9 +22,12 @@ class MainActivity : AppCompatActivity() {
                 zdj.setImageResource(R.drawable.kwiatyb)
             else if (i==3)
                 zdj.setImageResource(R.drawable.kwiatyc)
-            else if (i==4)
-                i=1
+            else if (i==4) {
+                i = 1
+                zdj.setImageResource(R.drawable.kwiatya)
+            }
         }
+
         wstecz.setOnClickListener {
             i--
             if (i==1)
@@ -33,8 +36,10 @@ class MainActivity : AppCompatActivity() {
                 zdj.setImageResource(R.drawable.kwiatyb)
             else if (i==3)
                 zdj.setImageResource(R.drawable.kwiatyc)
-            else if (i==0)
-                i=3
+            else if (i==0) {
+                i = 3
+                zdj.setImageResource(R.drawable.kwiatyc)
+            }
         }
 
     }
